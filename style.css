@@ -1,0 +1,57 @@
+                            /* Projet Site web Groupe 1 */ 
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    margin: 0px 50px;
+    margin-top: 50px;
+}
+#header-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#header-logo img{
+    width: 100%;
+    height: 60px;
+}
+#header-text{
+    padding: 0px 26px;
+    box-shadow: rgba(4, 128, 55, 0.16) 0px 5px 15px;
+}
+#header-text h1{
+    font-size: 30px;
+    color: #07793d;
+    font-family: 'Dancing Script', cursive;
+}
+#header-banner{
+    background-image:linear-gradient(to bottom, rgba(7, 121, 61, 0.80), rgba(255, 255, 255, 0.1)),
+    url('img/banniere.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+}
+#header-menu ul{
+    display: flex;
+}
+#header-menu ul li{
+    list-style: none;
+    font-size: 20px;
+    margin-right: 34px;
+}
+#header-menu ul li a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+#header-menu ul li a:hover{
+    text-decoration: none;
+    font-weight: 600;
+    color: #07793d;
+}
+
+
