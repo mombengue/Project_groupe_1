@@ -26,9 +26,13 @@ body{
     margin-right: 10px;
 }
 .header-logo h1{
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 800;
     color: #000;
     font-family: 'Dancing Script', cursive;
+}
+.header-logo h1 span{
+    color: #07793d;
 }
 .header-text{
     padding: 0px 26px;
@@ -46,6 +50,7 @@ body{
     background-repeat: no-repeat;
     height: 500px;
     display: flex;
+    border-radius: 20px;
 }
 .header-banner h1{
     font-size: 110px;
@@ -85,32 +90,136 @@ main img {
 }
 .toolbar{
     width: 20%;
-    background-color: red;
 }
 .content{
     width: 80%;
-    padding: 0px 40px;
-    background-color: yellow;
+    padding: 0px 60px;
 }
 .sidebar{
     width: 20%;
-    background-color: green;
 }
 
-
-.toolbar-cadre ul li{
+.toolbar ul{
+    padding: 0;
+}
+.toolbar ul li{
     list-style: none;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 16px 0px;
+    background-color: #cddfd6;
+    border: 2px solid #07793d;
+    border-radius: 5px;
+}
+.toolbar ul li a{
+    text-decoration: none;
+    color: #07793d;
+    font-size: 22px;
+    font-weight: 800;
+}
+.toolbar ul li:hover,
+.toolbar ul li.active{
+    background-color: #07793d;
+}
+.toolbar ul li:hover a,
+.toolbar ul li.active a{
+    color: #fff;
 }
 
+
+
+.content h1 {
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    color: #07793d;
+}
+.content h6 {
+    font-size: 22px;
+}
+.content p {
+    font-size: 18px;
+    line-height: 35px;
+}
 .content .texte-image{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-.content .texte-image p, 
+.content .texte-image p {
+    width: 70%;
+}
 .content .texte-image img {
-    width: 50%;
+    width: 30%;
+    height: 200px;
+}
+table{
+    width: 100%;
 }
 
+
+
+.sidebar img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.sidebar h4{
+    text-align: center;
+    font-size: 18px;
+}
 
 
 /* Footer */
+
+footer{
+    background-color: #07793d;
+    margin-top: 200px;
+    padding: 20px 40px;
+}
+.footer-cadre {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-partie-1 {
+    width: 40%;
+}
+.footer-partie-2 {
+    width: 30%;
+}
+.footer-partie-3 {
+    width: 30%;
+}
+.footer-cadre h4{
+    font-size: 35px;
+    font-weight: 800;
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+.footer-cadre h4 span{
+    color: #000;
+}
+.footer-cadre h5{
+    font-size: 22px;
+    color: #000;
+}
+.footer-cadre p, 
+.footer-cadre a{
+    font-size: 18px;
+    color: #fff;
+}
+.footer-cadre ul{
+    padding: 0;
+}
+.footer-cadre ul li{
+    list-style: none;
+    margin-bottom: 10px;
+}
+.footer-cadre ul li a{
+    text-decoration: none;
+}
+.footer-copyright{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+}
